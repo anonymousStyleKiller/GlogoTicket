@@ -1,0 +1,9 @@
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Application\bin\Debug\netcoreapp3.1\GloboTicket.TicketManagement.Application.deps.json
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Application\bin\Debug\netcoreapp3.1\GloboTicket.TicketManagement.Application.dll
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Application\bin\Debug\netcoreapp3.1\GloboTicket.TicketManagement.Application.pdb
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Application\obj\Debug\netcoreapp3.1\GloboTicket.TicketManagement.Application.csproj.AssemblyReference.cache
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Application\obj\Debug\netcoreapp3.1\GloboTicket.TicketManagement.Application.AssemblyInfoInputs.cache
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Application\obj\Debug\netcoreapp3.1\GloboTicket.TicketManagement.Application.AssemblyInfo.cs
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Application\obj\Debug\netcoreapp3.1\GloboTicket.TicketManagement.Application.csproj.CoreCompileInputs.cache
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Application\obj\Debug\netcoreapp3.1\GloboTicket.TicketManagement.Application.dll
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Application\obj\Debug\netcoreapp3.1\GloboTicket.TicketManagement.Application.pdb
