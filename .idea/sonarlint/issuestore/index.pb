@@ -69,3 +69,5 @@ r
 BGloboTicket.TicketManagement.Application/Responses/BaseResponse.cs,4\2\42418a571d821d8252dff1c010ad95b59b48f4b9
 §
 tGloboTicket.TicketManagement.Application/Features/Categories/Command/CreateCategory/CreateCategoryCommandResponse.cs,e\6\e615a7d44e6f9f47f26a3249bb6f3f4709c49862
+ê
+`GloboTicket.TicketManagement.Application/Features/Events/Queries/GetEventDetail/EventDetailVm.cs,0\3\03769b7cecf714b65bad7d8896e7b6948b24e3dc
