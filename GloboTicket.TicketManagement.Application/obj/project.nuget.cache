@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "gdPTe3/6nlm6l85tBoYKpfC9tUHVqU0BhCdby+3apX0UkAKuHBEtG0h76MOqRNQHaazjB19WIiqg1hfH/Bpy7w==",
+  "dgSpecHash": "EdUSLajn8xYtjbXAB1Z18yjL/HdrmDaBivAAMk7hF0zkPGnrYHriycVFaHMPFDalqXmKFAstd1cXLPQtger/Lg==",
   "success": true,
   "projectFilePath": "C:\\Projects\\Tests\\Backend\\EN\\GloboTicket.TicketManagement\\GloboTicket.TicketManagement.Application\\GloboTicket.TicketManagement.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
+    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512",
+    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.2.0\\fluentvalidation.dependencyinjectionextensions.9.2.0.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

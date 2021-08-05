@@ -9,13 +9,13 @@ using MediatR;
 
 namespace GloboTicket.TicketManagement.Application.Features.Events
 {
-    public class GetEventsListQueryHandler : IRequestHandler<GetEventDetailQuery, EventDetailVm>
+    public class GetDetailDetailQueryHandler : IRequestHandler<GetEventDetailQuery, EventDetailVm>
     {
         private readonly IAsyncRepository<Event> _eventRepository;
         private readonly IAsyncRepository<Category> _categoryRepository;
         private readonly IMapper _mapper;
 
-        public GetEventsListQueryHandler(IMapper mapper, IAsyncRepository<Event> eventRepository, 
+        public GetDetailDetailQueryHandler(IMapper mapper, IAsyncRepository<Event> eventRepository, 
         IAsyncRepository<Category> categoryRepository)
         {
             _mapper = mapper;
