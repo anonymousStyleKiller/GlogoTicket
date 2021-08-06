@@ -91,8 +91,8 @@ namespace GloboTicket.TicketManagement.Persistence
                     "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Oxxxymiron._Reebok.png/250px-Oxxxymiron._Reebok.png",
                 CategoryId = playGuid
             });
-            
-            
+
+
             modelBuilder.Entity<Order>().HasData(new Order
             {
                 Id = Guid.Parse("{7E94BC5B-71A5-4C8C-BC3B-71BB7976237E}"),
@@ -119,13 +119,11 @@ namespace GloboTicket.TicketManagement.Persistence
                 OrderPlaced = DateTime.Now,
                 UserId = Guid.Parse("{D97A15FC-0D32-41C6-9DDF-62F0735C4C1C}")
             });
-            
         }
 
-        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new())
         {
             foreach (var entry in ChangeTracker.Entries<AuditableEntity>())
-            {
                 switch (entry.State)
                 {
                     case EntityState.Added:
@@ -135,7 +133,6 @@ namespace GloboTicket.TicketManagement.Persistence
                         entry.Entity.LastModifiedDate = DateTime.Now;
                         break;
                 }
-            }
 
             return base.SaveChangesAsync(cancellationToken);
         }

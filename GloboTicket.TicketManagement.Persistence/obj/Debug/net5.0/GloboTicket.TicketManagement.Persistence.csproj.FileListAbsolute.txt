@@ -1,0 +1,17 @@
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Persistence\bin\Debug\net5.0\GloboTicket.TicketManagement.Persistence.deps.json
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Persistence\bin\Debug\net5.0\GloboTicket.TicketManagement.Persistence.dll
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Persistence\bin\Debug\net5.0\ref\GloboTicket.TicketManagement.Persistence.dll
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Persistence\bin\Debug\net5.0\GloboTicket.TicketManagement.Persistence.pdb
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Persistence\bin\Debug\net5.0\GloboTicket.TicketManagement.Application.dll
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Persistence\bin\Debug\net5.0\GloboTicket.TicketManagement.Domain.dll
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Persistence\bin\Debug\net5.0\GloboTicket.TicketManagement.Application.pdb
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Persistence\bin\Debug\net5.0\GloboTicket.TicketManagement.Domain.pdb
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Persistence\obj\Debug\net5.0\GloboTicket.TicketManagement.Persistence.csproj.AssemblyReference.cache
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Persistence\obj\Debug\net5.0\GloboTicket.TicketManagement.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Persistence\obj\Debug\net5.0\GloboTicket.TicketManagement.Persistence.AssemblyInfoInputs.cache
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Persistence\obj\Debug\net5.0\GloboTicket.TicketManagement.Persistence.AssemblyInfo.cs
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Persistence\obj\Debug\net5.0\GloboTicket.TicketManagement.Persistence.csproj.CoreCompileInputs.cache
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Persistence\obj\Debug\net5.0\GloboTicket.TicketManagement.Persistence.csproj.CopyComplete
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Persistence\obj\Debug\net5.0\GloboTicket.TicketManagement.Persistence.dll
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Persistence\obj\Debug\net5.0\ref\GloboTicket.TicketManagement.Persistence.dll
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Persistence\obj\Debug\net5.0\GloboTicket.TicketManagement.Persistence.pdb

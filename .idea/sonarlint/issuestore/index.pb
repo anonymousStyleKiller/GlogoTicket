@@ -71,3 +71,17 @@ BGloboTicket.TicketManagement.Application/Responses/BaseResponse.cs,4\2\42418a5
 tGloboTicket.TicketManagement.Application/Features/Categories/Command/CreateCategory/CreateCategoryCommandResponse.cs,e\6\e615a7d44e6f9f47f26a3249bb6f3f4709c49862
 ê
 `GloboTicket.TicketManagement.Application/Features/Events/Queries/GetEventDetail/EventDetailVm.cs,0\3\03769b7cecf714b65bad7d8896e7b6948b24e3dc
+¢
+rGloboTicket.TicketManagement.Persistence/obj/Debug/net5.0/GloboTicket.TicketManagement.Persistence.AssemblyInfo.cs,f\6\f6ecb5b572dc9798f3cff2aa7038c8222a597104
+à
+XGloboTicket.TicketManagement.Persistence/GloboTicket.TicketManagement.Persistence.csproj,4\a\4ab85f8371af047024d36aae53492036ba36420e
+P
+ GloboTicket.TicketManagement.sln,4\4\441b55106b20d4e815e0058910fb98b4268dd62b
+Ç
+RGloboTicket.TicketManagement.Application/Contracts/Persistence/IOrderRepository.cs,a\6\a63d025a7bb09a266a64266641766b99d83988fb
+}
+MGloboTicket.TicketManagement.Persistence/Configurations/EventConfiguration.cs,a\3\a36ecb291e35d4ef5bc3b076b96c5255822db2c6
+p
+@GloboTicket.TicketManagement.Persistence/GloboTicketDbContext.cs,5\5\55e8b13db263b1b4184c3c7836f108959f113ed9
+w
+GGloboTicket.TicketManagement.Persistence/Repositories/BaseRepository.cs,f\f\ff3bf1865f50f65f487c4465dcda3b45075b29d4

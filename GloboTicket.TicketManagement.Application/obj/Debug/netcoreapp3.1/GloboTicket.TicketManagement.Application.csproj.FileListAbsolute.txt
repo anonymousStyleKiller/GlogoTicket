@@ -7,3 +7,6 @@ C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketMana
 C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Application\obj\Debug\netcoreapp3.1\GloboTicket.TicketManagement.Application.csproj.CoreCompileInputs.cache
 C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Application\obj\Debug\netcoreapp3.1\GloboTicket.TicketManagement.Application.dll
 C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Application\obj\Debug\netcoreapp3.1\GloboTicket.TicketManagement.Application.pdb
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Application\bin\Debug\netcoreapp3.1\GloboTicket.TicketManagement.Domain.dll
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Application\bin\Debug\netcoreapp3.1\GloboTicket.TicketManagement.Domain.pdb
+C:\Projects\Tests\Backend\EN\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Application\obj\Debug\netcoreapp3.1\GloboTicket.TicketManagement.Application.csproj.CopyComplete
