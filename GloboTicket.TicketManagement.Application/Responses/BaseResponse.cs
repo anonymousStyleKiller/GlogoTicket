@@ -6,18 +6,18 @@ namespace GloboTicket.TicketManagement.Application.Responses
     {
         protected BaseResponse() => Success = true;
 
-        protected BaseResponse(string message= null)
+        protected BaseResponse(string message = null)
         {
             Success = true;
             Message = message;
         }
-        
+
         protected BaseResponse(string message, bool success)
         {
             Success = success;
             Message = message;
         }
-        
+
         public bool Success { get; set; }
         public string Message { get; set; }
 

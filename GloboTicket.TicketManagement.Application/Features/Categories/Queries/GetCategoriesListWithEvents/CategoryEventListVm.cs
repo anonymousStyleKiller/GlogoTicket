@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using GloboTicket.TicketManagement.Application.Features.Events;
 
 namespace GloboTicket.TicketManagement.Application.Features.Categories.Queries.GetCategoriesListWithEvents
 {

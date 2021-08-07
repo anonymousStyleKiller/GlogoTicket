@@ -3,10 +3,13 @@ using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
 using GloboTicket.TicketManagement.Application.Contracts.Persistence;
+using MediatR;
 
 namespace GloboTicket.TicketManagement.Application.Features.Categories.Queries.GetCategoriesListWithEvents
 {
-    public class GetCategoriesListWithEventsQueryHandler
+    public class
+        GetCategoriesListWithEventsQueryHandler : IRequestHandler<GetCategoriesListWithEventsQuery,
+            List<CategoryEventListVm>>
     {
         private readonly ICategoryRepository _categoryRepository;
         private readonly IMapper _mapper;
@@ -18,11 +21,11 @@ namespace GloboTicket.TicketManagement.Application.Features.Categories.Queries.G
         }
 
 
-        public async Task<List<CategoryEventListVm>> Handle(GetCategoriesListWithEventsQuery request, CancellationToken cancellationToken)
+        public async Task<List<CategoryEventListVm>> Handle(GetCategoriesListWithEventsQuery request,
+            CancellationToken cancellationToken)
         {
             var list = await _categoryRepository.GetCategoriesWithEvents(request.IncludeHistory);
             return _mapper.Map<List<CategoryEventListVm>>(list);
         }
     }
-    
 }

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GloboTicket.TicketManagement.Persistence.Repositories
 {
-    public class CategoryRepository : BaseRepository<Category>, ICategoryRepository 
+    public class CategoryRepository : BaseRepository<Category>, ICategoryRepository
     {
         public CategoryRepository(GloboTicketDbContext dbContext) : base(dbContext)
         {
@@ -18,12 +18,8 @@ namespace GloboTicket.TicketManagement.Persistence.Repositories
         {
             var allCategories = await _dbContext.Categories.Include(x => x.Events).ToListAsync();
             if (!includePassedEvents)
-            {
                 foreach (var allCategory in allCategories)
-                {
                     allCategory.Events.ToList().RemoveAll(c => c.Date < DateTime.Today);
-                }
-            }
 
             return allCategories;
         }

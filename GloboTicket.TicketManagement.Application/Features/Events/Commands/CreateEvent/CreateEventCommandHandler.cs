@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using GloboTicket.TicketManagement.Application.Contracts.Infrastructure;
 using GloboTicket.TicketManagement.Application.Contracts.Persistence;
+using GloboTicket.TicketManagement.Application.Exceptions;
 using GloboTicket.TicketManagement.Application.Models.Mail;
 using GloboTicket.TicketManagement.Domain.Entities;
 using MediatR;
@@ -12,9 +13,9 @@ namespace GloboTicket.TicketManagement.Application.Features.Events.Commands.Crea
 {
     public class CreateEventCommandHandler : IRequestHandler<CreateEventCommand, Guid>
     {
-        private readonly IMapper _mapper;
-        private readonly IEventRepository _eventRepository;
         private readonly IEmailService _emailService;
+        private readonly IEventRepository _eventRepository;
+        private readonly IMapper _mapper;
 
         public CreateEventCommandHandler(IMapper mapper, IEventRepository eventRepository, IEmailService emailService)
         {
@@ -29,12 +30,12 @@ namespace GloboTicket.TicketManagement.Application.Features.Events.Commands.Crea
             var validatorResult = await validator.ValidateAsync(request, cancellationToken).ConfigureAwait(false);
 
             if (validatorResult.Errors.Count > 0)
-                throw new Exceptions.ValidationException(validatorResult);
-            
+                throw new ValidationException(validatorResult);
+
             var @event = _mapper.Map<Event>(request);
             @event = await _eventRepository.AddAsync(@event);
 
-            var email = new Email()
+            var email = new Email
             {
                 To = "work.microinvest@gmail.com",
                 Body = $"A new event was created:{request}",

@@ -9,37 +9,35 @@ namespace GloboTicket.TicketManagement.Application.Features.Categories.Command.C
 {
     public class CreateCategoryCommandHandler
     {
-        private readonly IMapper _mapper;
         private readonly IAsyncRepository<Category> _categoryRepository;
+        private readonly IMapper _mapper;
 
         public CreateCategoryCommandHandler(IMapper mapper, IAsyncRepository<Category> categoryRepository)
         {
             _mapper = mapper;
             _categoryRepository = categoryRepository;
-         
         }
 
-        public async Task<CreateCategoryCommandResponse> Handle(CreateCategoryCommand request, CancellationToken cancellationToken)
+        public async Task<CreateCategoryCommandResponse> Handle(CreateCategoryCommand request,
+            CancellationToken cancellationToken)
         {
             var createCategoryCommandResponse = new CreateCategoryCommandResponse();
-            
+
             var validator = new CreateCategoryCommandValidator();
             var validatorResult = await validator.ValidateAsync(request, cancellationToken).ConfigureAwait(false);
-            
+
 
             if (validatorResult.Errors.Count > 0)
             {
                 createCategoryCommandResponse.Success = false;
                 createCategoryCommandResponse.ValidationErrors = new List<string>();
                 foreach (var error in validatorResult.Errors)
-                {
                     createCategoryCommandResponse.ValidationErrors.Add(error.ErrorMessage);
-                }
             }
 
             if (!createCategoryCommandResponse.Success) return createCategoryCommandResponse;
-            
-            var category = new Category() { Name = request.Name };
+
+            var category = new Category { Name = request.Name };
             category = await _categoryRepository.AddAsync(category).ConfigureAwait(false);
             createCategoryCommandResponse.Category = _mapper.Map<CreateCategoryDto>(category);
 

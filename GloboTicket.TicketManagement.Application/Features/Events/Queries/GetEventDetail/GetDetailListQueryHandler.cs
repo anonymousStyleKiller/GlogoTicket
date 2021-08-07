@@ -1,9 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
+﻿using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
 using GloboTicket.TicketManagement.Application.Contracts.Persistence;
+using GloboTicket.TicketManagement.Application.Features.Events.Queries.GetEventDetail;
 using GloboTicket.TicketManagement.Domain.Entities;
 using MediatR;
 
@@ -11,12 +10,12 @@ namespace GloboTicket.TicketManagement.Application.Features.Events
 {
     public class GetDetailDetailQueryHandler : IRequestHandler<GetEventDetailQuery, EventDetailVm>
     {
-        private readonly IAsyncRepository<Event> _eventRepository;
         private readonly IAsyncRepository<Category> _categoryRepository;
+        private readonly IAsyncRepository<Event> _eventRepository;
         private readonly IMapper _mapper;
 
-        public GetDetailDetailQueryHandler(IMapper mapper, IAsyncRepository<Event> eventRepository, 
-        IAsyncRepository<Category> categoryRepository)
+        public GetDetailDetailQueryHandler(IMapper mapper, IAsyncRepository<Event> eventRepository,
+            IAsyncRepository<Category> categoryRepository)
         {
             _mapper = mapper;
             _eventRepository = eventRepository;
@@ -30,7 +29,7 @@ namespace GloboTicket.TicketManagement.Application.Features.Events
 
             var category = await _categoryRepository.GetByIdAsync(@event.CategoryId);
             eventDetailDto.Category = _mapper.Map<CategoryDto>(category);
-            
+
             return eventDetailDto;
         }
     }

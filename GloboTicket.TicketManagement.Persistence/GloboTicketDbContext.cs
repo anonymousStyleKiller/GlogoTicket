@@ -53,7 +53,7 @@ namespace GloboTicket.TicketManagement.Persistence
             modelBuilder.Entity<Event>().HasData(new Event
             {
                 EventId = Guid.Parse("{0278B527-42CF-49A8-ACA3-98143880AEC7}"),
-                Name = " Алише́р Таги́рович Моргенште́рн",
+                Name = "Алише́р Таги́рович Моргенште́рн",
                 Price = 80,
                 Artist = "Моргенштерн",
                 Date = DateTime.Now.AddMonths(6),
@@ -66,7 +66,7 @@ namespace GloboTicket.TicketManagement.Persistence
 
             modelBuilder.Entity<Event>().HasData(new Event
             {
-                EventId = Guid.Parse("{0278B527-42CF-49A8-ACA3-98143880AEC7}"),
+                EventId = Guid.Parse("{0278B527-42CF-49A8-ACA3-98143880AEC3}"),
                 Name = "Ади́ль Оралбе́кович Жале́лов",
                 Price = 65,
                 Artist = "Скриптонит",
@@ -80,7 +80,7 @@ namespace GloboTicket.TicketManagement.Persistence
 
             modelBuilder.Entity<Event>().HasData(new Event
             {
-                EventId = Guid.Parse("{0278B527-42CF-49A8-ACA3-98143880AEC7}"),
+                EventId = Guid.Parse("{0278B527-42CF-49A8-ACA3-98143880AEC4}"),
                 Name = "Миро́н Я́нович Фёдоров",
                 Price = 70,
                 Artist = "Oxxxymiron",
