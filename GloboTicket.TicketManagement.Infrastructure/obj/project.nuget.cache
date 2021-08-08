@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "T5RYwhjrHTTckG45KuaxMKJ8KDqbYfU3vNYBC5DIlORHwPj3loP7Hr7mZBRwgExr8AcTtAVN91jrA79SGRWW/A==",
+  "dgSpecHash": "Nh+uUFIe18AYjeZX+Q9+vdcIrAOxH7jWLPj5fZuBK/jwePV98/WOB9DXz2ke3iL/viI5Kp1i03eT/NBDIwWaww==",
   "success": true,
   "projectFilePath": "C:\\Projects\\Tests\\Backend\\EN\\GloboTicket.TicketManagement\\GloboTicket.TicketManagement.Infrastructure\\GloboTicket.TicketManagement.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
+    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\csvhelper\\12.2.1\\csvhelper.12.2.1.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.2.0\\fluentvalidation.dependencyinjectionextensions.9.2.0.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
@@ -40,7 +41,7 @@
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\system.reflection.emit.lightweight\\4.0.1\\system.reflection.emit.lightweight.4.0.1.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\system.reflection.extensions\\4.0.1\\system.reflection.extensions.4.0.1.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\system.reflection.primitives\\4.0.1\\system.reflection.primitives.4.0.1.nupkg.sha512",
-    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\system.reflection.typeextensions\\4.1.0\\system.reflection.typeextensions.4.1.0.nupkg.sha512",
+    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\system.reflection.typeextensions\\4.4.0\\system.reflection.typeextensions.4.4.0.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\system.resources.resourcemanager\\4.0.1\\system.resources.resourcemanager.4.0.1.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\system.runtime\\4.1.0\\system.runtime.4.1.0.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\system.runtime.extensions\\4.1.0\\system.runtime.extensions.4.1.0.nupkg.sha512",

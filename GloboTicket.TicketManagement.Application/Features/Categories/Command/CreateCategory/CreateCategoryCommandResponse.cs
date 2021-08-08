@@ -4,6 +4,7 @@ namespace GloboTicket.TicketManagement.Application.Features.Categories.Command.C
 {
     public class CreateCategoryCommandResponse : BaseResponse
     {
+        public CreateCategoryCommandResponse() : base() { }
         public CreateCategoryDto Category { get; set; }
     }
 }

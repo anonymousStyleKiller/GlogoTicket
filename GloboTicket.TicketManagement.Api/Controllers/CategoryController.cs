@@ -41,8 +41,7 @@ namespace GloboTicket.TicketManagement.Api.Controllers
         }
 
         [HttpPost(Name = "AddCategory")]
-        public async Task<ActionResult<CreateCategoryCommandResponse>> Create(
-            [FromBody] CreateCategoryCommand createCategoryCommand)
+        public async Task<ActionResult<CreateCategoryCommandResponse>> Create([FromBody] CreateCategoryCommand createCategoryCommand)
         {
             var response = await _mediator.Send(createCategoryCommand);
             return Ok(response);
