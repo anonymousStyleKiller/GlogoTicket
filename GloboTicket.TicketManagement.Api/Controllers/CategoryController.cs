@@ -15,10 +15,7 @@ namespace GloboTicket.TicketManagement.Api.Controllers
     {
         private readonly IMediator _mediator;
 
-        public CategoryController(IMediator mediator)
-        {
-            _mediator = mediator;
-        }
+        public CategoryController(IMediator mediator) => _mediator = mediator;
 
         [HttpGet("all", Name = "GetAllCategories")]
         [ProducesResponseType(StatusCodes.Status200OK)]

@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using GloboTicket.TicketManagement.App.Services;
 using GloboTicket.TicketManagement.App.ViewModels;
+using GloboTicket.TicketManagement.Application.Features.Orders.GetOrdersForMonth;
+using OrdersForMonthDto = GloboTicket.TicketManagement.App.Services.OrdersForMonthDto;
 
 namespace GloboTicket.TicketManagement.App.Profiles
 {
@@ -23,7 +25,7 @@ namespace GloboTicket.TicketManagement.App.Profiles
             CreateMap<CreateCategoryCommand, CategoryViewModel>().ReverseMap();
             CreateMap<CreateCategoryDto, CategoryDto>().ReverseMap();
 
-            CreateMap<PagedOrdersForMonthVm, PagedOrderForMonthViewModel>().ReverseMap();
+            CreateMap<PageOrdersForMonthVm, PagedOrderForMonthViewModel>().ReverseMap();
             CreateMap<OrdersForMonthDto, OrdersForMonthListViewModel>().ReverseMap();
         }
     }

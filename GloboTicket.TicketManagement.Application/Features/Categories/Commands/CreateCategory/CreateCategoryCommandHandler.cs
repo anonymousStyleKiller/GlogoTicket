@@ -1,13 +1,12 @@
-﻿using AutoMapper;
+﻿using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
+using AutoMapper;
 using GloboTicket.TicketManagement.Application.Contracts.Persistence;
 using GloboTicket.TicketManagement.Domain.Entities;
 using MediatR;
-using System.Collections.Generic;
-using System.Threading;
-using System.Threading.Tasks;
-using GloboTicket.TicketManagement.Application.Features.Categories.Commands.CreateCategory;
 
-namespace GloboTicket.TicketManagement.Application.Features.Categories.Commands.CreateCateogry
+namespace GloboTicket.TicketManagement.Application.Features.Categories.Commands.CreateCategory
 {
     public class CreateCategoryCommandHandler : IRequestHandler<CreateCategoryCommand, CreateCategoryCommandResponse>
     {
@@ -38,7 +37,7 @@ namespace GloboTicket.TicketManagement.Application.Features.Categories.Commands.
             }
             if (createCategoryCommandResponse.Success)
             {
-                var category = new Category() { Name = request.Name };
+                var category = new Category { Name = request.Name };
                 category = await _categoryRepository.AddAsync(category);
                 createCategoryCommandResponse.Category = _mapper.Map<CreateCategoryDto>(category);
             }

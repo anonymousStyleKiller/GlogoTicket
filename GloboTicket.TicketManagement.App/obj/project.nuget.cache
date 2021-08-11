@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "FmbI7t1MhhDpVXPsjOUfuGpEw0h7zB0spsYW32FW9M3f2KWyWRJSGux/4EauzglwOJcZowpibGUYp0Qq/9PRPQ==",
+  "dgSpecHash": "0l9NKWGcMJAxFl/t2XKOJ9BFWvphm1zAgbNYywwkjEp9v/V7tkVhnF5M9FxL++7QJ6FRJ+OwOOf7Osko69/+4g==",
   "success": true,
   "projectFilePath": "C:\\Projects\\Tests\\Backend\\EN\\GloboTicket.TicketManagement\\GloboTicket.TicketManagement.App\\GloboTicket.TicketManagement.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\blazored.localstorage\\3.0.0\\blazored.localstorage.3.0.0.nupkg.sha512",
+    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512",
+    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.2.0\\fluentvalidation.dependencyinjectionextensions.9.2.0.nupkg.sha512",
+    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.10\\microsoft.aspnetcore.authorization.3.1.10.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.10\\microsoft.aspnetcore.components.3.1.10.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.10\\microsoft.aspnetcore.components.analyzers.3.1.10.nupkg.sha512",

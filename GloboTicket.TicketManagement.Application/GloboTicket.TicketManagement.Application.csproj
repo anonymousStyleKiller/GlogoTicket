@@ -16,9 +16,4 @@
         <ProjectReference Include="..\GloboTicket.TicketManagent.Domain\GloboTicket.TicketManagement.Domain.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-        <Folder Include="Features\Orders\Command" />
-        <Folder Include="Features\Orders\Queries" />
-    </ItemGroup>
-
 </Project>

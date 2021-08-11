@@ -4,7 +4,6 @@ using System.Threading.Tasks;
 using AutoMapper;
 using GloboTicket.TicketManagement.Application.Contracts.Persistence;
 using GloboTicket.TicketManagement.Application.Features.Categories.Commands.CreateCategory;
-using GloboTicket.TicketManagement.Application.Features.Categories.Commands.CreateCateogry;
 using GloboTicket.TicketManagement.Application.Profiles;
 using GloboTicket.TicketManagement.Application.UnitTest.Mocks;
 using GloboTicket.TicketManagement.Domain.Entities;

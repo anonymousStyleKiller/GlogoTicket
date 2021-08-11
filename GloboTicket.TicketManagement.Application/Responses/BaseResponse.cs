@@ -19,7 +19,7 @@ namespace GloboTicket.TicketManagement.Application.Responses
         }
 
         public bool Success { get; set; }
-        public string Message { get; set; }
+        private string Message { get; }
         public List<string> ValidationErrors { get; set; }
     }
 }
